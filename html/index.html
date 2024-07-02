@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes de Rick y Morty</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Personajes de Rick y Morty</h1>
+
+    <button id="fetchAllCharacters">Obtener todos los personajes</button>
+
+    <div>
+        <h2>Filtrar Personajes</h2>
+        <form id="filterForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name">
+            <label for="status">Estado:</label>
+            <input type="text" id="status" name="status">
+            <label for="species">Especie:</label>
+            <input type="text" id="species" name="species">
+            <label for="type">Tipo:</label>
+            <input type="text" id="type" name="type">
+            <label for="gender">Género:</label>
+            <input type="text" id="gender" name="gender">
+            <button type="submit">Filtrar</button>
+        </form>
+    </div>
+
+    <div id="charactersContainer"></div>
+
+    <!-- Imágenes de Rick y Morty -->
+    <img id="rickImg" src="img/Rick_Sanchez.webp" alt="Rick">
+    <img id="mortyImg" src="img/morty.jpg" alt="Morty">
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: greenyellow; /* Fondo verde */
+    display: flex;
+    align-items: flex-start;
+    position: relative; /* Añadir posición relativa para los elementos absolutos */
+}
+
+h1 {
+    color: #333;
+    background-color: darkgreen; /* Fondo amarillo */
+    padding: 10px;
+    margin-right: 20px; /* Espacio a la derecha */
+}
+
+#filterForm {
+    margin-top: 20px;
+    margin-left: 20px; /* Espacio a la izquierda */
+    flex: 1; /* Ocupa todo el espacio disponible */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+    margin-top: 5px;
+    display: block;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#charactersContainer {
+    margin-top: 20px;
+}
+
+#rickImg {
+    position: absolute;
+    left: 10px; /* Ajusta la posición de Rick */
+    bottom: 20px;
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+}
+
+#mortyImg {
+    position: absolute;
+    right: 10px; /* Ajusta la posición de Morty */
+    bottom: 20px;
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+}
